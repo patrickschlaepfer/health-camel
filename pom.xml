@@ -12,6 +12,7 @@
 	<modules>
 		<module>guerir-systemone</module>
 		<module>guerir-sap</module>
+		<module>guerir-entities</module>
 	</modules>
 
 	<properties>
