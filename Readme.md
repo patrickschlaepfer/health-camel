@@ -1,5 +1,8 @@
 # Guerir
 
+guérir {verb}
+to cure · to recover · to treat · to heal · to remedy · to care for
+
 After following  
 
 http://de.slideshare.net/davsclaus/riga-dev-day-2016-microservices-with-apache-camel-fabric8-on-kubernetes?qid=63bff260-8a79-4da1-8d89-819d9b3e4226&v=&b=&from_search=1
