@@ -19,7 +19,7 @@ public class SystemOneDirectRoute extends RouteBuilder {
 
 		// @formatter:off 
 		from("direct:hl7SystemOne")
-  			.routeId("SystemOneDriect")
+  			.routeId("SystemOneDirect")
   			.log("HL7 Request: ${body}")
   			.unmarshal()
   			.hl7()

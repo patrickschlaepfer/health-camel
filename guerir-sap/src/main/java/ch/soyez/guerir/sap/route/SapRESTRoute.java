@@ -4,6 +4,7 @@ import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.model.rest.RestBindingMode;
 
 import ch.soyez.guerir.entities.Patient;
+import ch.soyez.guerir.sap.translator.ODataToPatient;
 import ch.soyez.guerir.sap.translator.PatientToOData;
 
 public class SapRESTRoute extends RouteBuilder {
@@ -30,7 +31,9 @@ public class SapRESTRoute extends RouteBuilder {
 		
 		from("direct:newPatient")
 			.bean(PatientToOData.class)
-			.log("get new Patient");
+			.log("get new Patient")
+			.log("Would save to SAP")
+			.bean(ODataToPatient.class);
 		
 		// @formatter:on 
 		
