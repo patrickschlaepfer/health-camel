@@ -43,10 +43,10 @@
 				<version>${project.version}</version>
 			</dependency>
 			<dependency>
-                <groupId>${project.groupId}</groupId>
-                <artifactId>guerir-translators</artifactId>
-                <version>${project.version}</version>
-            </dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>guerir-translators</artifactId>
+				<version>${project.version}</version>
+			</dependency>
 
 			<dependency>
 				<groupId>org.apache.camel</groupId>
@@ -84,6 +84,12 @@
 				<groupId>org.apache.commons</groupId>
 				<artifactId>commons-lang3</artifactId>
 				<version>${version.commons-lang3}</version>
+			</dependency>
+
+			<dependency>
+				<groupId>org.apache.camel</groupId>
+				<artifactId>camel-jackson</artifactId>
+				<version>${version.camel}</version>
 			</dependency>
 
 			<!-- logging to the console -->

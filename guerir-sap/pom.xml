@@ -15,6 +15,13 @@
 	<name>guerir :: sap</name>
 
 	<dependencies>
+
+		<!-- guerir -->
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>guerir-entities</artifactId>
+		</dependency>
+
 		<dependency>
 			<groupId>org.apache.camel</groupId>
 			<artifactId>camel-core</artifactId>
@@ -22,12 +29,7 @@
 
 		<dependency>
 			<groupId>org.apache.camel</groupId>
-			<artifactId>camel-hl7</artifactId>
-		</dependency>
-
-		<dependency>
-			<groupId>ca.uhn.hapi</groupId>
-			<artifactId>hapi-osgi-base</artifactId>
+			<artifactId>camel-jackson</artifactId>
 		</dependency>
 
 		<!-- Netty4 -->
