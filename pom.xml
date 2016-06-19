@@ -13,6 +13,7 @@
 		<module>guerir-systemone</module>
 		<module>guerir-sap</module>
 		<module>guerir-entities</module>
+		<module>guerir-translators</module>
 	</modules>
 
 	<properties>
@@ -32,6 +33,14 @@
 
 	<dependencyManagement>
 		<dependencies>
+
+			<!-- Guerir -->
+			<dependency>
+				<groupId>${project.groupId}</groupId>
+				<artifactId>guerir-entities</artifactId>
+				<version>${project.version}</version>
+			</dependency>
+
 			<dependency>
 				<groupId>org.apache.camel</groupId>
 				<artifactId>camel-core</artifactId>

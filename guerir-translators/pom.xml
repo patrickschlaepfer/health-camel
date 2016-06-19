@@ -10,12 +10,34 @@
 		<relativePath>../</relativePath>
 	</parent>
 
-	<artifactId>guerir-entities</artifactId>
+	<artifactId>guerir-translators</artifactId>
 	<packaging>jar</packaging>
-	<name>guerir :: entities</name>
+	<name>guerir :: translators</name>
 
 	<dependencies>
-		
+
+		<!-- guerir -->
+		<dependency>
+            <groupId>${project.groupId}</groupId>
+            <artifactId>guerir-entities</artifactId>
+        </dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-core</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>org.apache.camel</groupId>
+			<artifactId>camel-hl7</artifactId>
+		</dependency>
+
+		<dependency>
+			<groupId>ca.uhn.hapi</groupId>
+			<artifactId>hapi-osgi-base</artifactId>
+		</dependency>
+
+
 		<!-- logging -->
 		<dependency>
 			<groupId>ch.qos.logback</groupId>
