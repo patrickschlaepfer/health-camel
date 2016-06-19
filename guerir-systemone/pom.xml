@@ -13,6 +13,10 @@
 	<artifactId>guerir-systemone</artifactId>
 	<packaging>jar</packaging>
 	<name>guerir :: system-one</name>
+	
+	<properties>
+       <java.main.class>ch.soyez.guerir.systemone.SystemOneCamelBoot</java.main.class>
+    </properties>
 
 	<dependencies>
 

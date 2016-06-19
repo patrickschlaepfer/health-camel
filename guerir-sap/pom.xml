@@ -13,6 +13,10 @@
 	<artifactId>guerir-sap</artifactId>
 	<packaging>jar</packaging>
 	<name>guerir :: sap</name>
+	
+	<properties>
+	   <java.main.class>ch.soyez.guerir.sap.SapCamelBoot</java.main.class>
+	</properties>
 
 	<dependencies>
 

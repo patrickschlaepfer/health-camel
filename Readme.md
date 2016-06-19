@@ -9,5 +9,42 @@ http://de.slideshare.net/davsclaus/riga-dev-day-2016-microservices-with-apache-c
 
 was thinking to adapt it. Just having a plain Camel implementation.
 
+## Docker
 
+First install docker binaries - DockerToolbox for windows
 
+Then start Docker
+
+```
+C:\Projects\health-spring-boot\health-spring-boot-systemone>docker-machine env default
+SET DOCKER_TLS_VERIFY=1
+SET DOCKER_HOST=tcp://192.168.99.100:2376
+SET DOCKER_CERT_PATH=C:\Users\patrick.INTERNAL\.docker\machine\machines\default
+SET DOCKER_MACHINE_NAME=default
+REM Run this command to configure your shell:
+REM     @FOR /f "tokens=*" %i IN ('docker-machine env default') DO @%i
+
+C:\Projects\health-spring-boot\health-spring-boot-systemone>@FOR /f "tokens=*" %i IN ('docker-machine env default') DO @%i
+
+C:\Projects\health-spring-boot\health-spring-boot-systemone>docker version
+Client:
+ Version:      1.11.1
+ API version:  1.23
+ Go version:   go1.5.4
+ Git commit:   5604cbe
+ Built:        Tue Apr 26 23:44:17 2016
+ OS/Arch:      windows/amd64
+
+Server:
+ Version:      1.11.1
+ API version:  1.23
+ Go version:   go1.5.4
+ Git commit:   5604cbe
+ Built:        Wed Apr 27 00:34:20 2016
+ OS/Arch:      linux/amd64
+ ```
+### Login to docker
+
+```
+docker login
+```
