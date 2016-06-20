@@ -16,6 +16,11 @@
 	
 	<properties>
        <java.main.class>ch.soyez.guerir.systemone.SystemOneCamelBoot</java.main.class>
+       
+       <fabric8.service.name></fabric8.service.name>
+       <fabric8.service.containerPort></fabric8.service.containerPort>
+       <fabric8.service.port></fabric8.service.port>
+       
     </properties>
 
 	<dependencies>

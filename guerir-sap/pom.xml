@@ -16,6 +16,11 @@
 	
 	<properties>
 	   <java.main.class>ch.soyez.guerir.sap.SapCamelBoot</java.main.class>
+	   
+	   <fabric8.service.name>sapservice</fabric8.service.name>
+       <fabric8.service.containerPort>8080</fabric8.service.containerPort>
+       <fabric8.service.port>8282</fabric8.service.port>
+	   
 	</properties>
 
 	<dependencies>
