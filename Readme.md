@@ -33,7 +33,9 @@ The easiest way to install fabric8 is to use a vagrant file.
 
 https://github.com/fabric8io/fabric8-installer
 
-For Windows install
+### Windows Install
+
+https://blog.openshift.com/running-openshift-origin-on-windows/
 
 ```
 vagrant plugin install vagrant-hostmanager
@@ -74,4 +76,14 @@ vagrant plugin install vagrant-hostmanager
 ==> default:    watch oc get pods
 ==> default:    oc get pods --watch
 ```
+
+#### Set environment variables on Windows
+
+Add the two following env variables.
+
+```
+set KUBERNETES_DOMAIN=vagrant.f8
+set export DOCKER_HOST=tcp://vagrant.f8:2375
+```
+
 
