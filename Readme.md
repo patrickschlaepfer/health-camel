@@ -92,5 +92,6 @@ https://speakerdeck.com/saturnism/2016-jfokus-java-based-microservices-and-kuber
 
 http://de.slideshare.net/KellyGoetsch/microservices-oracle-a-bright-future
 
+https://blog.openshift.com/running-openshift-origin-on-windows/
 
 
