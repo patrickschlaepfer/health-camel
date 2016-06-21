@@ -86,4 +86,11 @@ set KUBERNETES_DOMAIN=vagrant.f8
 set export DOCKER_HOST=tcp://vagrant.f8:2375
 ```
 
+### Other links
+
+https://speakerdeck.com/saturnism/2016-jfokus-java-based-microservices-and-kubernetes-how-to
+
+http://de.slideshare.net/KellyGoetsch/microservices-oracle-a-bright-future
+
+
 
